@@ -1,0 +1,257 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: A4MDL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0xc09 /fo"Debug/VCMdl.res" /d "_DEBUG" /d "_AFXDLL" "U:\Code\VCMdl\VCMdl.rc"" 
+Creating temporary file "D:\TEMP\RSP263.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I ".\Units" /I ".\ShlBrows" /I ".\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/VCMdl.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"U:\Code\VCMdl\Units\Bones.cpp"
+"U:\Code\VCMdl\Units\Colors.cpp"
+"U:\Code\VCMdl\Units\DibFuncs.cpp"
+"U:\Code\VCMdl\Units\Keyboard.cpp"
+"U:\Code\VCMdl\Units\KeyFuncs.cpp"
+"U:\Code\VCMdl\Units\Light.cpp"
+"U:\Code\VCMdl\Units\MainFunc.cpp"
+"U:\Code\VCMdl\Units\MATRIX.CPP"
+"U:\Code\VCMdl\Units\MdlConst.cpp"
+"U:\Code\VCMdl\Units\MDLGlobs.cpp"
+"U:\Code\VCMdl\Units\MDLType.cpp"
+"U:\Code\VCMdl\Units\MenuItem.cpp"
+"U:\Code\VCMdl\Units\OldMdlCn.cpp"
+"U:\Code\VCMdl\Units\ProgSet.cpp"
+"U:\Code\VCMdl\Units\RegClass.cpp"
+"U:\Code\VCMdl\Units\RegCtrl.cpp"
+"U:\Code\VCMdl\Units\Undo.cpp"
+"U:\Code\VCMdl\Units\Undo3D.cpp"
+"U:\Code\VCMdl\Units\UndoSkin.cpp"
+"U:\Code\VCMdl\A4MDLDlg.cpp"
+"U:\Code\VCMdl\BonesTab.cpp"
+"U:\Code\VCMdl\BottmDlg.cpp"
+"U:\Code\VCMdl\CreatTab.cpp"
+"U:\Code\VCMdl\ExTypDlg.cpp"
+"U:\Code\VCMdl\ModTab.cpp"
+"U:\Code\VCMdl\SideDlg.cpp"
+"U:\Code\VCMdl\ViewTab.cpp"
+"U:\Code\VCMdl\SBotmDlg.cpp"
+"U:\Code\VCMdl\SkinDlg.cpp"
+"U:\Code\VCMdl\SModTab.cpp"
+"U:\Code\VCMdl\SToolDlg.cpp"
+"U:\Code\VCMdl\ClrCfgPg.cpp"
+"U:\Code\VCMdl\DirCfgPg.cpp"
+"U:\Code\VCMdl\KeyCfgPg.cpp"
+"U:\Code\VCMdl\KeyDlg.cpp"
+"U:\Code\VCMdl\Clrbutn.cpp"
+"U:\Code\VCMdl\ColLstBx.cpp"
+"U:\Code\VCMdl\PaintDlg.cpp"
+"U:\Code\VCMdl\PaintTab.cpp"
+"U:\Code\VCMdl\ATabCtrl.cpp"
+"U:\Code\VCMdl\ConDlg.cpp"
+"U:\Code\VCMdl\MiscDlgs.cpp"
+"U:\Code\VCMdl\PasteDlg.cpp"
+"U:\Code\VCMdl\TypeDlg.cpp"
+"U:\Code\VCMdl\DlgGlobs.cpp"
+"U:\Code\VCMdl\Units\HelperFuncs.cpp"
+"U:\Code\VCMdl\UndoCfg.cpp"
+"U:\Code\VCMdl\VCMdl.cpp"
+"U:\Code\VCMdl\ShlBrows\SHFile.cpp"
+"U:\Code\VCMdl\ShlBrows\SHPidl.cpp"
+"U:\Code\VCMdl\ShlBrows\SHTree.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP263.tmp" 
+Creating temporary file "D:\TEMP\RSP264.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I ".\Units" /I ".\ShlBrows" /I ".\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/VCMdl.pch" /Yc"StdAfx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"U:\Code\VCMdl\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\TEMP\RSP264.tmp" 
+Creating temporary file "D:\TEMP\RSP265.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/VCMdl.pdb" /debug /machine:I386 /out:"Debug/VCMdl.exe" /pdbtype:sept 
+.\Debug\Bones.obj
+.\Debug\Colors.obj
+.\Debug\DibFuncs.obj
+.\Debug\Keyboard.obj
+.\Debug\KeyFuncs.obj
+.\Debug\Light.obj
+.\Debug\MainFunc.obj
+.\Debug\MATRIX.OBJ
+.\Debug\MdlConst.obj
+.\Debug\MDLGlobs.obj
+.\Debug\MDLType.obj
+.\Debug\MenuItem.obj
+.\Debug\OldMdlCn.obj
+.\Debug\ProgSet.obj
+.\Debug\RegClass.obj
+.\Debug\RegCtrl.obj
+.\Debug\Undo.obj
+.\Debug\Undo3D.obj
+.\Debug\UndoSkin.obj
+.\Debug\A4MDLDlg.obj
+.\Debug\BonesTab.obj
+.\Debug\BottmDlg.obj
+.\Debug\CreatTab.obj
+.\Debug\ExTypDlg.obj
+.\Debug\ModTab.obj
+.\Debug\SideDlg.obj
+.\Debug\ViewTab.obj
+.\Debug\SBotmDlg.obj
+.\Debug\SkinDlg.obj
+.\Debug\SModTab.obj
+.\Debug\SToolDlg.obj
+.\Debug\ClrCfgPg.obj
+.\Debug\DirCfgPg.obj
+.\Debug\KeyCfgPg.obj
+.\Debug\KeyDlg.obj
+.\Debug\Clrbutn.obj
+.\Debug\ColLstBx.obj
+.\Debug\PaintDlg.obj
+.\Debug\PaintTab.obj
+.\Debug\ATabCtrl.obj
+.\Debug\ConDlg.obj
+.\Debug\MiscDlgs.obj
+.\Debug\PasteDlg.obj
+.\Debug\TypeDlg.obj
+.\Debug\DlgGlobs.obj
+.\Debug\HelperFuncs.obj
+.\Debug\StdAfx.obj
+.\Debug\UndoCfg.obj
+.\Debug\VCMdl.obj
+.\Debug\SHFile.obj
+.\Debug\SHPidl.obj
+.\Debug\SHTree.obj
+.\Debug\VCMdl.res
+]
+Creating command line "link.exe @D:\TEMP\RSP265.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Bones.cpp
+Colors.cpp
+DibFuncs.cpp
+Keyboard.cpp
+KeyFuncs.cpp
+Light.cpp
+MainFunc.cpp
+MATRIX.CPP
+MdlConst.cpp
+MDLGlobs.cpp
+MDLType.cpp
+MenuItem.cpp
+OldMdlCn.cpp
+ProgSet.cpp
+RegClass.cpp
+RegCtrl.cpp
+Undo.cpp
+Undo3D.cpp
+UndoSkin.cpp
+A4MDLDlg.cpp
+Generating Code...
+Compiling...
+BonesTab.cpp
+BottmDlg.cpp
+CreatTab.cpp
+ExTypDlg.cpp
+ModTab.cpp
+SideDlg.cpp
+ViewTab.cpp
+SBotmDlg.cpp
+SkinDlg.cpp
+SModTab.cpp
+SToolDlg.cpp
+ClrCfgPg.cpp
+DirCfgPg.cpp
+KeyCfgPg.cpp
+KeyDlg.cpp
+Clrbutn.cpp
+ColLstBx.cpp
+PaintDlg.cpp
+PaintTab.cpp
+ATabCtrl.cpp
+Generating Code...
+Compiling...
+ConDlg.cpp
+MiscDlgs.cpp
+PasteDlg.cpp
+TypeDlg.cpp
+DlgGlobs.cpp
+HelperFuncs.cpp
+UndoCfg.cpp
+VCMdl.cpp
+SHFile.cpp
+SHPidl.cpp
+SHTree.cpp
+Generating Code...
+Linking...
+Creating temporary file "D:\TEMP\RSP267.tmp" with contents
+[
+/nologo /o"Debug/VCMdl.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\Bones.sbr
+.\Debug\Colors.sbr
+.\Debug\DibFuncs.sbr
+.\Debug\Keyboard.sbr
+.\Debug\KeyFuncs.sbr
+.\Debug\Light.sbr
+.\Debug\MainFunc.sbr
+.\Debug\MATRIX.SBR
+.\Debug\MdlConst.sbr
+.\Debug\MDLGlobs.sbr
+.\Debug\MDLType.sbr
+.\Debug\MenuItem.sbr
+.\Debug\OldMdlCn.sbr
+.\Debug\ProgSet.sbr
+.\Debug\RegClass.sbr
+.\Debug\RegCtrl.sbr
+.\Debug\Undo.sbr
+.\Debug\Undo3D.sbr
+.\Debug\UndoSkin.sbr
+.\Debug\A4MDLDlg.sbr
+.\Debug\BonesTab.sbr
+.\Debug\BottmDlg.sbr
+.\Debug\CreatTab.sbr
+.\Debug\ExTypDlg.sbr
+.\Debug\ModTab.sbr
+.\Debug\SideDlg.sbr
+.\Debug\ViewTab.sbr
+.\Debug\SBotmDlg.sbr
+.\Debug\SkinDlg.sbr
+.\Debug\SModTab.sbr
+.\Debug\SToolDlg.sbr
+.\Debug\ClrCfgPg.sbr
+.\Debug\DirCfgPg.sbr
+.\Debug\KeyCfgPg.sbr
+.\Debug\KeyDlg.sbr
+.\Debug\Clrbutn.sbr
+.\Debug\ColLstBx.sbr
+.\Debug\PaintDlg.sbr
+.\Debug\PaintTab.sbr
+.\Debug\ATabCtrl.sbr
+.\Debug\ConDlg.sbr
+.\Debug\MiscDlgs.sbr
+.\Debug\PasteDlg.sbr
+.\Debug\TypeDlg.sbr
+.\Debug\DlgGlobs.sbr
+.\Debug\HelperFuncs.sbr
+.\Debug\UndoCfg.sbr
+.\Debug\VCMdl.sbr
+.\Debug\SHFile.sbr
+.\Debug\SHPidl.sbr
+.\Debug\SHTree.sbr]
+Creating command line "bscmake.exe @D:\TEMP\RSP267.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+VCMdl.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
